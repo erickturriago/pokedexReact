@@ -1,0 +1,29 @@
+.typePokemons{
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* height: 100%; */
+    padding: 10px 10px 10px 10px;
+    gap: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+
+.typePokemons::-webkit-scrollbar {
+    background-color: #ffffff;
+    border-radius: 20px;
+    max-width: 8px;
+    /* border: 5px solid #f1f2f3; */
+}
+
+
+.typePokemons::-webkit-scrollbar-thumb {
+    background-color: #b3b3b3;
+    border-radius: 20px;
+    width: 10px;
+    /* border: 5px solid #f1f2f3; */
+}

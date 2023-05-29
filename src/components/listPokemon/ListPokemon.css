@@ -1,0 +1,28 @@
+
+.pokemonList{
+    flex: 10;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-auto-rows: 250px;
+    grid-gap: 40px;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+
+.pokemonList::-webkit-scrollbar {
+    background-color: #ffffff;
+    border-radius: 20px;
+    max-width: 8px;
+    margin-right: 2px;
+    /* border: 5px solid #f1f2f3; */
+}
+
+
+.pokemonList::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    /* border: 5px solid #f1f2f3; */
+}
